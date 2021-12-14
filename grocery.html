@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery</title>
+    <link rel="stylesheet" href="grocery.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><span>Dunia</span>Buah.</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#product">Product</a>
+        <a href="#farm">Farm</a>
+        <a href="testimonials">Testimonials</a>
+        <a href="contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">Click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+      </form>
+    </div>
+    <!-- login section ends -->
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Your Healthy</h3>
+        <p>With Fresh Fruit</p>
+        <a href="#" class="btn">Get Your Healty Fruit</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/video-1.mp4"></span>
+        <span class="vid-btn" data-src="images/video-2.mp4"></span>
+        <span class="vid-btn" data-src="images/video-3.mp4"></span>
+        <span class="vid-btn" data-src="images/video-4.mp4"></span>
+        <span class="vid-btn" data-src="images/video-5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video src="images/video-1.mp4" id="video-slider" loop autoplay muted></video>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- services section -->
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-truck"></i>
+          <h3>free delivery</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores laudantium dicta, illum nostrum veritatis?</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-apple-alt"></i>
+          <h3>good quality</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores laudantium dicta, illum nostrum veritatis?</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-tags"></i>
+          <h3>affordable</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores laudantium dicta, illum nostrum veritatis?</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-balance-scale"></i>
+          <h3>trusted</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores laudantium dicta, illum nostrum veritatis?</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>100% halal</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores laudantium dicta, illum nostrum veritatis?</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-clock"></i>
+          <h3>fast delivery</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores laudantium dicta, illum nostrum veritatis?</p>
+        </div>
+      </div>
+    </section>
+    <!-- services section ends -->
+
+    <!-- product section -->
+    <section class="product" id="product">
+      <h1 class="heading">
+        <span>p</span>
+        <span>r</span>
+        <span>o</span>
+        <span>d</span>
+        <span>u</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/buah-1.jpg" alt="" />
+          <div class="content">
+            <h3>banana</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5.00 <span>$5.50</span></div>
+            <a href="#" class="btn">buy now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/buah-2.jpg" alt="" />
+          <div class="content">
+            <h3>orange</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5.00 <span>$5.50</span></div>
+            <a href="#" class="btn">buy now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/buah-3.jpg" alt="" />
+          <div class="content">
+            <h3>lemon</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5.00 <span>$5.50</span></div>
+            <a href="#" class="btn">buy now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/buah-4.jpg" alt="" />
+          <div class="content">
+            <h3>strawberry</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5.00 <span>$5.50</span></div>
+            <a href="#" class="btn">buy now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/buah-5.jpg" alt="" />
+          <div class="content">
+            <h3>avocade</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5.00 <span>$5.50</span></div>
+            <a href="#" class="btn">buy now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/buah-6.jpg" alt="" />
+          <div class="content">
+            <h3>apple</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5.00 <span>$5.50</span></div>
+            <a href="#" class="btn">buy now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section ends -->
+
+    <!-- Farm section -->
+    <section class="farm" id="farm">
+      <h1 class="heading">
+        <span>f</span>
+        <span>a</span>
+        <span>r</span>
+        <span>m</span>
+      </h1>
+
+      <div class="swiper-container farm-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/farm-1.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium!</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/farm-2.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium!</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/farm-3.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium!</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/farm-4.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium!</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/farm-5.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end farm section -->
+
+    <!-- review section -->
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+      
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box-container">
+              <div class="box">
+                <img src="images/review-1.jpg" alt="" class="user" />
+                <h3>tukul arwana</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repudiandae dolores delectus magni tenetur corporis, hic laborum
+                  voluptas perspiciatis!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                  <a href="" class="social"><i class="fab fa-facebook"></i></a>
+                  <a href="" class="social"><i class="fab fa-linkedin"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box-container">
+              <div class="box">
+                <img src="images/review-2.jpg" alt="" class="user" />
+                <h3>tukul arwana</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repudiandae dolores delectus magni tenetur corporis, hic laborum
+                  voluptas perspiciatis!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                  <a href="" class="social"><i class="fab fa-facebook"></i></a>
+                  <a href="" class="social"><i class="fab fa-linkedin"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box-container">
+              <div class="box">
+                <img src="images/review-3.jpg" alt="" class="user" />
+                <h3>tukul arwana</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repudiandae dolores delectus magni tenetur corporis, hic laborum
+                  voluptas perspiciatis!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                  <a href="" class="social"><i class="fab fa-facebook"></i></a>
+                  <a href="" class="social"><i class="fab fa-linkedin"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box-container">
+              <div class="box">
+                <img src="images/review-4.jpg" alt="" class="user" />
+                <h3>tukul arwana</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repudiandae dolores delectus magni tenetur corporis, hic laborum
+                  voluptas perspiciatis!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                  <a href="" class="social"><i class="fab fa-facebook"></i></a>
+                  <a href="" class="social"><i class="fab fa-linkedin"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- contact section -->
+<section class="contact" id="contact">
+  <h1 class="heading">
+    <span>c</span>
+    <span>o</span>
+    <span>n</span>
+    <span>t</span>
+    <span>a</span>
+    <span>c</span>
+    <span>t</span>
+  </h1>
+
+  <div class="row">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31686.176174553162!2d107.66047360000002!3d-6.917836549999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7fa5a41c0bf%3A0x92717a360474c3c6!2sKec.%20Antapani%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1637479360740!5m2!1sid!2sid" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+       <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send message" />
+    </form>
+  </div>
+</section>
+    <!-- contact section ends -->
+  <!-- footer section -->
+    <footer class="footer">
+      <div class="inner-footer">
+        <h3>Let's Connect With Me</h3>
+        <div class="social-links">
+          <ul>
+            <li class="social-footer"><a href="https://www.instagram.com/mrizkiadi/"><i class="bx bxl-instagram"></i></a></li>
+            <li class="social-footer"><a href="https://www.facebook.com/mrizkyadi24/"><i class="bx bxl-facebook"></i></a></li>
+            <li class="social-footer"><a href="mailto:muhammadrizkiadimulyadi@gmail.com"><i class="bx bx-envelope"></i></a></li>
+            <li class="social-footer"><a href="www.linkedin.com/in/muhammad-rizki-adi-mulyadi"><i class="bx bxl-linkedin-square"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="nav-links">
+          <ul>
+            <li class="nav-items"><a href="#home">Home</a></li>
+            <li class="nav-items"><a href="#about">About</a></li>
+            <li class="nav-items"><a href="#service">Service</a></li>
+            <li class="nav-items"><a href="#product">Product</a></li>
+            <li class="nav-items"><a href="#review">Review</a></li>
+            <li class="nav-items"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>@Website Portfolio Responsive Muhammad Rizki Adi Mulyadi, Thank You For Your Coming!</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
